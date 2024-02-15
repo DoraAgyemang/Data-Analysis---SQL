@@ -1,2 +1,2 @@
-# Data-Analysis---SQL
-Analysing Data with SQL
+# Data-Analysis-SQL
+ ## Analysing Data with SQL
