@@ -20,6 +20,8 @@ Product sales Data: The primary dataset used for this analysis is the AdventureW
   ```
   CREATE DATABASE PROJECTSA
   ```
+  ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/80ec47fa-2860-4f27-8487-56e587649897)
+
 
   
   
