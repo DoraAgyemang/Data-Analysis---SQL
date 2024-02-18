@@ -45,7 +45,7 @@ The dataset used for the data analysis was imorted using the following methods:
   - Total Sales for each product name
   - Total tax amount for each product color
   - Total freight for each product name
-  -	The sum of proportion of the sum of total product cost for each product name
+  - The sum of proportion of the sum of total product cost for each product name
 
    ### Data Analysis
 At this juncture we are going to write queries to asnwer the about question.
@@ -75,8 +75,29 @@ ORDER BY Total_Tax DESC;
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/c4ea40f5-cd25-45b3-9785-827bd0fb158a)<p>
 3. Total freight for each product name
 ```
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/07610d11-e50f-4a0a-a2b8-dbbcf82681cf)
+SELECT
+     ProductName,
+	SUM(Freight) AS Total_Freight
+FROM AdventureWorks_Products AS p  
+INNER JOIN AdventureWork_Sales AS S     
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductName
+ORDER BY Total_Freight   DESC 
 ```
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/5c956631-a398-4a0f-abd1-36536a0bff1d)<p>
+4. The sum of proportion of the sum of total product cost for each product name
+
+```
+SELECT
+     ProductName,
+	SUM(TotalProductCost) AS Sum_of_proportion
+FROM AdventureWorks_Products AS p  
+INNER JOIN AdventureWork_Sales AS S     
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductName
+ORDER BY Sum_of_proportion   DESC
+```
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/b9653497-b99a-4347-a662-3e11b37a3ff7)
 
 
 
