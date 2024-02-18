@@ -12,6 +12,12 @@ Product sales Data: The primary dataset used for this analysis is the AdventureW
 
 - SQL Server 2022
 - Microsoft SQL Server Management Studio
-- Excel 
+- Excel
+
+  ### Creating Database
+
+  The database **PROJECTSA** was created.
+
+  
   
  
