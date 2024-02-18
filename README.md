@@ -17,6 +17,9 @@ Product sales Data: The primary dataset used for this analysis is the AdventureW
   ### Creating Database
 
   The database **PROJECTSA** was created.
+  ```
+  CREATE DATABASE PROJECTSA
+  ```
 
   
   
