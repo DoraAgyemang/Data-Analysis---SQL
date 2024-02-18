@@ -8,7 +8,7 @@ The goal of this data analysis project is to offer insights into the sales perfo
 
 Product sales Data: The primary dataset used for this analysis is the AdventureWorks containing csv file
 
-###Tools
+### Tools
 
 - SQL Server 2022
 - Microsoft SQL Server Management Studio
