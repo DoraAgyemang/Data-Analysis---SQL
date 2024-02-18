@@ -60,7 +60,24 @@ ON P.ProductKey=S.ProductKey
 GROUP BY ProductName 
 ORDER BY Total_Sales DESC;
  ```
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)<p>
+2.  Total tax amount for each product color
+ ```
+SELECT
+     ProductColor,
+	SUM(TaxAmt) AS Total_Tax
+FROM AdventureWorks_Products AS P 
+INNER JOIN AdventureWork_Sales AS S
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductColor
+ORDER BY Total_Tax DESC;
+```
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/c4ea40f5-cd25-45b3-9785-827bd0fb158a)<p>
+3. Total freight for each product name
+```
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/07610d11-e50f-4a0a-a2b8-dbbcf82681cf)
+```
+
 
 
    
