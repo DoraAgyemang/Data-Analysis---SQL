@@ -35,8 +35,34 @@ The dataset used for the data analysis was imorted using the following methods:
 4. Left click on **Browse** to import file from you documents
    ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/bc06b03e-722b-4d69-8eaa-1d12f07a8c0c)<p>
 5. Select the datasets and click on **Open** to load data and select **Next** <p>
-   ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/adf31b61-e046-4c52-9102-9dd2f8f753c0)
- 
+   ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/adf31b61-e046-4c52-9102-9dd2f8f753c0)<p>
+ The datasets from **AdventureWorks** has now been imported successfully
+   ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/5897bc56-8fcc-4804-9e7b-4b2726eaaefa)<p>
+
+  ### Exploratory Data Analysis
+
+ Exploratory Data Analysis (EDA) entailed delving into the product sales data to address essential inquiries, such as:
+  - Total Sales for each product name
+  - Total tax amount for each product color
+  - Total freight for each product name
+  -	The sum of proportion of the sum of total product cost for each product name
+
+   ### Data Analysis
+At this juncture we are going to write queries to asnwer the about question.
+ 1. Querry to bring out the total sales for each Product name
+   ```
+      SELECT
+     ProductName,
+	SUM(SalesAmount) AS Total_Sales
+FROM AdventureWorks_Products AS P 
+INNER JOIN AdventureWork_Sales AS S
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductName 
+ORDER BY Total_Sales DESC;
+ ```
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)
+
+
    
  
 
