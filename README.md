@@ -48,19 +48,19 @@ The dataset used for the data analysis was imorted using the following methods:
 
   ### Exploratory Data Analysis
 
- Exploratory Data Analysis (EDA) entailed delving into the product sales data to address essential inquiries, such as:
+ Exploratory Data Analysis (EDA) entails delving into the product sales data to address essential queries, such as:
   - Total Sales for each product name
   - Total tax amount for each product color
   - Total freight for each product name
   - The sum of proportion of the sum of total product cost for each product name
 
    ### Data Analysis
-At this juncture we are going to write queries to asnwer the about questions.
+At this juncture we will querry the data to asnwer the business questions above.
  1. Querry to bring out the total sales for each Product name
    ```
-      SELECT
+SELECT
      ProductName,
-	SUM(SalesAmount) AS Total_Sales
+     SUM(SalesAmount) AS Total_Sales
 FROM AdventureWorks_Products AS P 
 INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
@@ -74,7 +74,7 @@ For this querry a view was created to further expolre in excel and also to visua
 CREATE VIEW TotalSalesProduct AS
 SELECT
      ProductName,
-	SUM(SalesAmount) AS Total_Sales
+     SUM(SalesAmount) AS Total_Sales
 FROM AdventureWorks_Products AS P 
 INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
@@ -85,7 +85,7 @@ GROUP BY ProductName
  ```
 SELECT
      ProductColor,
-	SUM(TaxAmt) AS Total_Tax
+     SUM(TaxAmt) AS Total_Tax
 FROM AdventureWorks_Products AS P 
 INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
@@ -98,7 +98,7 @@ A view was created just as seen in 1 above
 CREATE VIEW TotalTaxAmount AS
 SELECT
      ProductColor,
-	SUM(TaxAmt) AS Total_Tax
+     SUM(TaxAmt) AS Total_Tax
 FROM AdventureWorks_Products AS P 
 INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
@@ -109,7 +109,7 @@ GROUP BY ProductColor
 ```
 SELECT
      ProductName,
-	SUM(Freight) AS Total_Freight
+     SUM(Freight) AS Total_Freight
 FROM AdventureWorks_Products AS p  
 INNER JOIN AdventureWork_Sales AS S     
 ON P.ProductKey=S.ProductKey
@@ -123,7 +123,7 @@ View was created for this querry
 CREATE VIEW TotalFreight AS
 SELECT
      ProductName,
-	SUM(Freight) AS Total_Freight
+     SUM(Freight) AS Total_Freight
 FROM AdventureWorks_Products AS p  
 INNER JOIN AdventureWork_Sales AS S     
 ON P.ProductKey=S.ProductKey
@@ -135,7 +135,7 @@ GROUP BY ProductName
 ```
 SELECT
      ProductName,
-	SUM(TotalProductCost) AS Sum_of_proportion
+     SUM(TotalProductCost) AS Sum_of_proportion
 FROM AdventureWorks_Products AS p  
 INNER JOIN AdventureWork_Sales AS S     
 ON P.ProductKey=S.ProductKey
@@ -148,7 +148,7 @@ A view was created for this querry
 CREATE VIEW TotalProductCost AS 
 SELECT
      ProductName,
-	SUM(TotalProductCost) AS Sum_of_proportion
+     SUM(TotalProductCost) AS Sum_of_proportion
 FROM AdventureWorks_Products AS p  
 INNER JOIN AdventureWork_Sales AS S     
 ON P.ProductKey=S.ProductKey
