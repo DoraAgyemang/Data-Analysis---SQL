@@ -81,7 +81,7 @@ INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
 GROUP BY ProductName 
 ```
-In creating a view, we populated a stored **SELECT** statement and querried it like a table. This because a view do not accept parameters. Here, we created a view that **executes a SELECT statement**, and returns the names products and their total sales for an end user.
+In creating a view, we populated a stored **SELECT** statement and querried it like a table. This is because a view do not accept parameters. Here, we created a view that **executes a SELECT statement**, and returns the names of products and their total sales for an end user.
 
 2.  Total tax amount for each product color
  ```
@@ -107,6 +107,7 @@ INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
 GROUP BY ProductColor
 ```
+Here, we created a view that **utilises a SELECT statement**, and returns the total tax amount and the product colors.
 
 3. Total freight for each product name
 ```
@@ -120,7 +121,7 @@ GROUP BY ProductName
 ORDER BY Total_Freight   DESC 
 ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/5c956631-a398-4a0f-abd1-36536a0bff1d)<p>
-In this querry we brought out the Total freight for ach product name where Road-150 Red.40 has the highest total freight.
+In this querry, we analysed the Total freight for each product name where Road-150 Red.40 has the highest total freight.
 View was created for this querry
 
 ```
@@ -133,6 +134,7 @@ INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
 GROUP BY ProductName
 ```
+In this task, we created a view that returns the total freight for each product name.
 
 4. The sum of proportion of the sum of total product cost for each product name
 
@@ -147,7 +149,8 @@ GROUP BY ProductName
 ORDER BY Sum_of_proportion   DESC
 ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/b9653497-b99a-4347-a662-3e11b37a3ff7)<p>
-Per the querry we brought out the sum of proportion for each product name with Road-150 Red.48 with the highest sum of proportion.
+Per the querry, the sum of proportion for each product name was analysed with Road-150 Red.48 with the highest sum of proportion. As part of the analysis, we will later leverage on excel's pivot table to analyse the sum of proportion.
+
 A view was created for this querry
 ```
 CREATE VIEW TotalProductCost AS 
@@ -159,6 +162,7 @@ INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
 GROUP BY ProductName
 ```
+This view returns the sum of total cost for each product name.
 
 ### Importing Data from SQL to Excel For Report
 
