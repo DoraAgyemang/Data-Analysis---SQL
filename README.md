@@ -68,6 +68,7 @@ GROUP BY ProductName
 ORDER BY Total_Sales DESC;
  ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)<p>
+From the above table it can be seen that the total sales for each product was brought out from the AdventureWorks product and AdventureWorks Sales by using inner join to join the tables since they are two different tables. It was then querried to be grouped by Product Name and Ordered the Total Sales to be in Descending order.
 
 For this querry a view was created to further expolre in excel and also to visualize the data.
 ```
