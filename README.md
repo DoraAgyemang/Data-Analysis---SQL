@@ -61,6 +61,10 @@ GROUP BY ProductName
 ORDER BY Total_Sales DESC;
  ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)<p>
+A prompt will pop upt for the server name to the inputted. Go to the SQL and copy the data se name and paste then click okay.
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/d02859ad-4722-4d1b-a446-d5969692b149)
+
 For this querry a view was created to further expolre in excel and also to visualize the data.
 ```
 CREATE VIEW TotalSalesProduct AS
@@ -88,6 +92,18 @@ GROUP BY ProductColor
 ORDER BY Total_Tax DESC;
 ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/c4ea40f5-cd25-45b3-9785-827bd0fb158a)<p>
+A view was created just as seen in 1 above
+```
+CREATE VIEW TotalTaxAmount AS
+SELECT
+     ProductColor,
+	SUM(TaxAmt) AS Total_Tax
+FROM AdventureWorks_Products AS P 
+INNER JOIN AdventureWork_Sales AS S
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductColor
+```
+
 3. Total freight for each product name
 ```
 SELECT
@@ -100,6 +116,19 @@ GROUP BY ProductName
 ORDER BY Total_Freight   DESC 
 ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/5c956631-a398-4a0f-abd1-36536a0bff1d)<p>
+View was created for this querry
+
+```
+CREATE VIEW TotalFreight AS
+SELECT
+     ProductName,
+	SUM(Freight) AS Total_Freight
+FROM AdventureWorks_Products AS p  
+INNER JOIN AdventureWork_Sales AS S     
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductName
+```
+
 4. The sum of proportion of the sum of total product cost for each product name
 
 ```
