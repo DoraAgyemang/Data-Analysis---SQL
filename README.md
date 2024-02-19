@@ -94,6 +94,7 @@ GROUP BY ProductColor
 ORDER BY Total_Tax DESC;
 ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/c4ea40f5-cd25-45b3-9785-827bd0fb158a)<p>
+The above querry brought out the Total Tax by the Product color with Red having the highest Total Tax.
 A view was created just as seen in 1 above
 ```
 CREATE VIEW TotalTaxAmount AS
@@ -118,6 +119,7 @@ GROUP BY ProductName
 ORDER BY Total_Freight   DESC 
 ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/5c956631-a398-4a0f-abd1-36536a0bff1d)<p>
+In this querry we brought out the Total freight for ach product name where Road-150 Red.40 has the highest total freight.
 View was created for this querry
 
 ```
@@ -144,6 +146,7 @@ GROUP BY ProductName
 ORDER BY Sum_of_proportion   DESC
 ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/b9653497-b99a-4347-a662-3e11b37a3ff7)<p>
+Per the querry we brought out the sum of proportion for each product name with Road-150 Red.48 with the highest sum of proportion.
 A view was created for this querry
 ```
 CREATE VIEW TotalProductCost AS 
