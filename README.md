@@ -81,6 +81,7 @@ INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
 GROUP BY ProductName 
 ```
+In creating a view, we populated a stored **SELECT** statement and querried it like a table. This because a view do not accept parameters. Here, we created a view that **executes a SELECT statement**, and returns the names products and their total sales for an end user.
 
 2.  Total tax amount for each product color
  ```
