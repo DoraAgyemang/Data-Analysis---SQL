@@ -43,6 +43,7 @@ The dataset used for the data analysis was imorted using the following methods:
    ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/adf31b61-e046-4c52-9102-9dd2f8f753c0)<p>
    
  The datasets from **AdventureWorks** has now been imported successfully
+ 
    ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/5897bc56-8fcc-4804-9e7b-4b2726eaaefa)<p>
 
   ### Exploratory Data Analysis
@@ -189,6 +190,11 @@ Pivot Tables and a pivot charts were created for the data in Excel
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/2a56a892-786c-44a2-b4d5-9ec1c1326a87)
 
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7c4f5de1-7054-4c3b-b46d-0167aa3c22f5)
+
+Finally a dashboard was created for the the four charts
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/a646d024-2967-4658-adca-fb7afd5896f7)
+
 
 
 
