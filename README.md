@@ -48,7 +48,7 @@ The dataset used for the data analysis was imorted using the following methods:
   - The sum of proportion of the sum of total product cost for each product name
 
    ### Data Analysis
-At this juncture we are going to write queries to asnwer the about question.
+At this juncture we are going to write queries to asnwer the about questions.
  1. Querry to bring out the total sales for each Product name
    ```
       SELECT
@@ -61,6 +61,17 @@ GROUP BY ProductName
 ORDER BY Total_Sales DESC;
  ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)<p>
+For this querry a view was created to further expolre in excel and also to visualize the data.
+```
+CREATE VIEW TotalSalesProduct AS
+SELECT
+     ProductName,
+	SUM(SalesAmount) AS Total_Sales
+FROM AdventureWorks_Products AS P 
+INNER JOIN AdventureWork_Sales AS S
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductName 
+```
 2.  Total tax amount for each product color
  ```
 SELECT
