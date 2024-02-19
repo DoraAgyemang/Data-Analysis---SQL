@@ -70,7 +70,7 @@ ORDER BY Total_Sales DESC;
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)<p>
 From the above table it can be seen that the total sales for each product was brought out from the AdventureWorks product and AdventureWorks Sales by using inner join to join the tables using what they have in common (ProductKey) since they are two different tables. It was then querried to be grouped by Product Name and Ordered the Total Sales to be in Descending order with Road-150 Red.48 with the highest Total Sales. 
 
-For this querry a view was created to further expolre in excel and also to visualize the data.
+For this querry a view was created to further explore in excel and also to visualisee the data.
 ```
 CREATE VIEW TotalSalesProduct AS
 SELECT
