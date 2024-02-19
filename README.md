@@ -72,6 +72,10 @@ INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
 GROUP BY ProductName 
 ```
+In excel on a blank workbook, go to **Data**, then to **Get Data** and select **From Database** then click  **From SQL Server Database**.
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7d770b52-b812-4272-bb34-5f2ad4a43e8f)
+
 2.  Total tax amount for each product color
  ```
 SELECT
