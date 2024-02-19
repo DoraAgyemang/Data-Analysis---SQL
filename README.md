@@ -76,9 +76,6 @@ INNER JOIN AdventureWork_Sales AS S
 ON P.ProductKey=S.ProductKey
 GROUP BY ProductName 
 ```
-In excel on a blank workbook, go to **Data**, then to **Get Data** and select **From Database** then click  **From SQL Server Database**.
-
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7d770b52-b812-4272-bb34-5f2ad4a43e8f)
 
 2.  Total tax amount for each product color
  ```
@@ -141,9 +138,25 @@ ON P.ProductKey=S.ProductKey
 GROUP BY ProductName
 ORDER BY Sum_of_proportion   DESC
 ```
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/b9653497-b99a-4347-a662-3e11b37a3ff7)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/b9653497-b99a-4347-a662-3e11b37a3ff7)<p>
+A view was created for this querry
+```
+CREATE VIEW TotalProductCost AS 
+SELECT
+     ProductName,
+	SUM(TotalProductCost) AS Sum_of_proportion
+FROM AdventureWorks_Products AS p  
+INNER JOIN AdventureWork_Sales AS S     
+ON P.ProductKey=S.ProductKey
+GROUP BY ProductName
+```
 
+### Importing Data from SQL to Excel For Report
 
+  In excel on a blank workbook, go to **Data**, then to **Get Data** and select **From Database** then click  
+   **From SQL Server Database**.
+   
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7d770b52-b812-4272-bb34-5f2ad4a43e8f)
 
    
  
