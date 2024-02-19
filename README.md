@@ -61,7 +61,6 @@ GROUP BY ProductName
 ORDER BY Total_Sales DESC;
  ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)<p>
-A prompt will pop upt for the server name to the inputted. Go to the SQL and copy the data se name and paste then click okay.
 
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/d02859ad-4722-4d1b-a446-d5969692b149)
 
@@ -158,8 +157,10 @@ GROUP BY ProductName
    
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7d770b52-b812-4272-bb34-5f2ad4a43e8f)
 
-   
+  A prompt will pop upt for the server name to the inputted. Go to the SQL and copy the data se name and paste then click okay.
  
+ ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/d02859ad-4722-4d1b-a446-d5969692b149)
+
 
   
   
