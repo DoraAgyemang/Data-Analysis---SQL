@@ -62,8 +62,6 @@ ORDER BY Total_Sales DESC;
  ```
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/54673020-c6d5-427e-8420-ecbb13b42bd6)<p>
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/d02859ad-4722-4d1b-a446-d5969692b149)
-
 For this querry a view was created to further expolre in excel and also to visualize the data.
 ```
 CREATE VIEW TotalSalesProduct AS
@@ -157,9 +155,42 @@ GROUP BY ProductName
    
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7d770b52-b812-4272-bb34-5f2ad4a43e8f)
 
-  A prompt will pop upt for the server name to the inputted. Go to the SQL and copy the data se name and paste then click okay.
+  A prompt will pop upt for the server name to the inputted. 
  
  ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/d02859ad-4722-4d1b-a446-d5969692b149)
+
+ Go the SQL server and on object explorer click on connect then select Database engine
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/89ad2ce4-3fe6-49cc-a7aa-32fb662c94a5)
+
+A prompt will appear. You then copy the server name and paste in the excel pop up 
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/c1519def-f97d-4ba5-ac51-db0d01b86112)
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/78b32588-cb8c-46fd-bf30-69ce876625c4)
+
+Click okay. There is then another prompt for you to select your data, after which you click load
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/cc58791e-cb34-48be-8e95-78fa11970638)
+
+### Pivot Tables and Pivot Charts
+Pivot Tables and a pivot charts were created for the data in Excel 
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7d0ac91c-61e2-4372-bea6-3df046f2983b)
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/cf383322-d361-4456-b32c-f077be6d70df)
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/2a56a892-786c-44a2-b4d5-9ec1c1326a87)
+
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7c4f5de1-7054-4c3b-b46d-0167aa3c22f5)
+
+
+
+
+
+
+
+
 
 
   
