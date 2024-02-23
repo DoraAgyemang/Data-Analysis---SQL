@@ -202,8 +202,10 @@ Pivot Tables and a pivot charts were created for the data in Excel
 
 Finally a dashboard was created for the the four charts
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/60982e0d-f7e8-41bd-b1b4-ff293eb5830c)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/4a887eb2-f460-4a21-82ec-a6b92ef4807f)
 
+### Conclusion
+These were the analysis done for this project for organisational use and it is editable at any given time. However, different analysis can be obtained from the data 
 
 
 
