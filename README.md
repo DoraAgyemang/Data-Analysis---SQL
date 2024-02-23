@@ -202,7 +202,7 @@ Pivot Tables and a pivot charts were created for the data in Excel
 
 Finally a dashboard was created for the the four charts
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/a646d024-2967-4658-adca-fb7afd5896f7)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/60982e0d-f7e8-41bd-b1b4-ff293eb5830c)
 
 
 
