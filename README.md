@@ -192,13 +192,13 @@ Click okay. There is then another prompt for you to select your data, after whic
 ### Pivot Tables and Pivot Charts
 Pivot Tables and a pivot charts were created for the data in Excel 
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7d0ac91c-61e2-4372-bea6-3df046f2983b)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/70a01138-defa-4fe8-a464-b39aa0ea1c04)
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/cf383322-d361-4456-b32c-f077be6d70df)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/8cfb03da-7414-40f6-b20d-6272acd0386a)
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/2a56a892-786c-44a2-b4d5-9ec1c1326a87)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/17e298be-f327-4cee-9568-2f0d6126296f)
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/7c4f5de1-7054-4c3b-b46d-0167aa3c22f5)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/41602e43-b62c-4b12-b527-cc4146a1cb82)
 
 Finally a dashboard was created for the the four charts
 
