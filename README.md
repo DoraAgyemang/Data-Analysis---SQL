@@ -202,7 +202,8 @@ Pivot Tables and a pivot charts were created for the data in Excel
 
 Finally a dashboard was created for the the four charts
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/4c8672ac-5326-4cb5-bf8e-e755e20b520e)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/8a11ea28-c1f1-489a-96ce-56a6eae1ca84)
+
 
 ### Conclusion
 In this project we used the data available to analyse the product color and Product name to find out which products by color have the highest total sales for organisational use and it is editable at any given time. However, different analysis can be obtained from the data.
