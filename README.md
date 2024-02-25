@@ -194,7 +194,8 @@ Pivot Tables and a pivot charts were created for the data in Excel
 
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/70a01138-defa-4fe8-a464-b39aa0ea1c04)
 
-![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/8cfb03da-7414-40f6-b20d-6272acd0386a)
+![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/121ff909-6be7-46e1-840e-f7fbb6cde207)
+
 
 ![image](https://github.com/MYZDEE/Data-Analysis---SQL/assets/128803445/5c0902cf-0816-48ed-a085-1e892b823da8)
 
